@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.save.Form">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/head"
+        android:text="MAKE IT COUNT!"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:typeface="sans"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAllCaps="true"
+        android:text="name"
+        android:layout_below="@+id/head"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/tname"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold|italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tname"
+        android:id="@+id/ename"
+
+        >
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="phone"
+        android:id="@+id/tphone"
+        android:layout_below="@+id/ename"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tphone"
+        android:id="@+id/ephone"
+
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAllCaps="true"
+        android:text="email"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold|italic"
+        android:id="@+id/tmail"
+        android:layout_below="@+id/ephone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tmail"
+        android:id="@+id/email">
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAllCaps="true"
+        android:text="material"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/tmat"
+        android:layout_below="@+id/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tmat"
+        android:id="@+id/emat" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:id="@+id/button"
+        android:text="DONATE"
+        android:textAlignment="center"
+        android:layout_below="@+id/emat"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"/>
+
+</RelativeLayout>

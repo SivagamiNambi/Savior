@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.save.Form">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAllCaps="true"
+        android:text="Savior 1.0"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/title"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold|italic"
+        />
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_height="wrap_content"
+        android:text="Savior is your one stop solution during a crisis.
+                      When disaster strikes,fear not, for we will always assist you in every way we can!"
+        android:id="@+id/content" />
+
+
+    <!--Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="106dp"
+        android:id="@+id/button" /-->
+</RelativeLayout>
